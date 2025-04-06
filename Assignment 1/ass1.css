@@ -1,0 +1,256 @@
+*{
+    margin: 0px;
+    color: white;
+    font-family: 'Roboto', sans-serif;  
+}
+/* bbc nav bar */
+.mainnav{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+}
+li{
+    list-style: none;
+    float: left;
+}
+.line{
+    padding-top: 15px;
+    padding-left: 30px;
+}
+/* cnn nav bar */
+.mainnav1{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+}
+.img{
+    height: 50px;
+    width: 90px;
+}
+.cnn{
+    padding-top: 14px;
+    padding-left: 20px;
+}
+/* linked in nav bar */
+.nav3{
+    height: 50px;
+    width: 100%;
+    background-color:white;
+}
+.linked{
+    padding-top: 13px;
+    padding-left: 20px;
+}
+/* instagram nav bar */
+.nav4{
+    height: 50px;
+    width: 100%;
+    background-color:white;
+}
+.insta{
+    padding-top: 13px;
+    padding-left: 20px;
+}
+/* youtubr */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+  }
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar-left img {
+    height: 20px;
+    margin-right: 10px;
+  }
+
+  .navbar-left span {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+  }
+
+  .navbar-center {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navbar-center input {
+    width: 60%;
+    padding: 8px 12px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 20px 0 0 20px;
+    outline: none;
+  }
+
+  .navbar-center button {
+    background: #f1f1f1;
+    border: 1px solid #ddd;
+    border-left: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 0 20px 20px 0;
+  }
+
+  .navbar-center button:hover {
+    background: #e6e6e6;
+  }
+
+  .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar-right .icon {
+    margin: 0 10px;
+    font-size: 18px;
+    color: #555;
+    cursor: pointer;
+  }
+
+  .navbar-right .icon:hover {
+    color: #000;
+  }
+
+  .navbar-right .profile {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+  .navbar-right .profile img {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* facbook */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background: #f0f2f5;
+  }
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+
+  /* Left Section */
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar-left img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+
+  /* Center Section */
+  .navbar-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .navbar-center .icon {
+    position: relative;
+    font-size: 18px;
+    color: #606770;
+    cursor: pointer;
+  }
+
+  .navbar-center .icon.active {
+    color: #1877f2;
+    border-bottom: 3px solid #1877f2;
+    padding-bottom: 5px;
+  }
+
+  .navbar-center .icon .badge {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background: #f02849;
+    color: white;
+    font-size: 12px;
+    padding: 2px 6px;
+    border-radius: 12px;
+  }
+
+  /* Right Section */
+  .navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .navbar-right .icon {
+    font-size: 18px;
+    color: #606770;
+    cursor: pointer;
+    position: relative;
+  }
+
+  .navbar-right .icon .badge {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background: #f02849;
+    color: white;
+    font-size: 12px;
+    padding: 2px 6px;
+    border-radius: 12px;
+  }
+
+  .navbar-right .profile {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+  }
+
+  .navbar-right .profile img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+
+
